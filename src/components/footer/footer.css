@@ -1,0 +1,22 @@
+.footer{
+    width: 100%;
+    margin: 20px 0;
+}
+.footer-btn-pair{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-btn{
+    padding: 1.05rem;
+    border-radius: 10px;
+    border: 0;
+    background-color: var(--footer-btn-bg-color);
+    color: var(--footer-btn-color);
+}
+.footer-btn:hover{
+    cursor: pointer;
+    background-color: #fa2743af;
+}

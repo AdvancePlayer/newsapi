@@ -1,0 +1,30 @@
+.home-main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #fff;
+}
+.home-layout{
+    width: 80%;
+    height: fit-content;
+    margin: 10px auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+}
+
+.home-left h3{
+    font-size: 1.5rem;
+    margin: 15px auto;
+    position: relative;
+    transform: translate(-50%,-50%);
+}
+
+@media screen and (max-width:400px) {
+    .home-left h3{
+        transform: none;
+    }
+}
